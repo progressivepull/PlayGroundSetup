@@ -1,2 +1,8 @@
-# Setting_GitHub_on_Debian
-by John Smith
+# Play Ground Setup 
+PRETTY_NAME="Debian GNU/Linux 13 (trixie)"
+NAME="Debian GNU/Linux"
+VERSION_ID="13"
+VERSION="13 (trixie)"
+VERSION_CODENAME=trixie
+DEBIAN_VERSION_FULL=13.8
+
