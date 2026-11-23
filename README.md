@@ -51,6 +51,18 @@ You should see something similar to:
 john : john sudo
 ```
 
+Great! Your output confirms that john is already a member of the sudo group.
+
+```
+john : john cdrom floppy sudo audio dip video plugdev users netdev scanner bluetooth lpadmin
+```
+
+**Refresh your group membership**
+
+```bash
+newgrp sudo
+```
+
 
 ## Step 4. Restart your session
 Log out of Debian completely and log back in.
