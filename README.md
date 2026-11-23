@@ -1,8 +1,8 @@
 # Play Ground Setup 
-PRETTY_NAME="Debian GNU/Linux 13 (trixie)"
-NAME="Debian GNU/Linux"
-VERSION_ID="13"
-VERSION="13 (trixie)"
-VERSION_CODENAME=trixie
-DEBIAN_VERSION_FULL=13.8
+PRETTY_NAME="Debian GNU/Linux 13 (trixie)"      
+NAME="Debian GNU/Linux"    
+VERSION_ID="13"    
+VERSION="13 (trixie)"    
+VERSION_CODENAME=trixie    
+DEBIAN_VERSION_FULL=13.8     
 
