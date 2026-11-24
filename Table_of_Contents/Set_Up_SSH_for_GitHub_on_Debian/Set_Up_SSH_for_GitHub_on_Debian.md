@@ -1,4 +1,4 @@
-# Set Up SSH for GitHub on Debia
+# Set Up SSH for GitHub on Debian
 
 **Set Up SSH for GitHub on Debian**
 
