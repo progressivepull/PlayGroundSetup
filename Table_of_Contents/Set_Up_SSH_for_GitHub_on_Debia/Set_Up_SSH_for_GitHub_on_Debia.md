@@ -37,6 +37,28 @@ Before creating a new key, check whether you already have one.
 ls -la ~/.ssh
 ```
 
+if get the following message
+
+```
+john@debian:~$ ls -la ~/.ssh
+ls: cannot access '/home/john/.ssh': No such file or directory
+```
+
+That's normal! It means your Debian user account (john) does not have an SSH directory yet. We can create it before setting up GitHub SSH authentication.
+
+Create the SSH directory
+Run:
+
+```bash
+mkdir -p ~/.ssh
+```
+
+Set the correct permissions
+
+```bash
+chmod 700 ~/.ssh
+```
+
 Look for these files:
 
 | **File**       | **Purpose**     |
