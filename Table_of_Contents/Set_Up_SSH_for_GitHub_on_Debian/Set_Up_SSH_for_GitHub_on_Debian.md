@@ -218,7 +218,7 @@ git clone git@github.com:USERNAME/REPOSITORY.git
 For example:
 
 ```bash
-git clone git@github.com:progressivepull/my-project.git
+git clone git@github.com:progressivepull/angular-k8s.git
 ```
 
 Make a small change to a file, then try pushing the changes to GitHub to verify that everything is configured correctly.
@@ -239,7 +239,7 @@ The git remote set-url origin command changes the remote repository address name
 This allows your local Debian repository to communicate with the GitHub repository progressivepull/angular-k8s.git using your SSH key for authentication.
 
 ```
-git remote set-url origin git@github.com:YOUR_USERNAME/REPO_NAME.git
+git remote set-url origin git@github.com:USERNAME/REPOSITORY.git
 ```
 For example
 
