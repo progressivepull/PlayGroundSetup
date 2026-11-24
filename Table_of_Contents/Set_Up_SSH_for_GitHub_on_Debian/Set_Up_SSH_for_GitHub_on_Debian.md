@@ -144,7 +144,7 @@ xclip -selection clipboard < ~/.ssh/id_ed25519.pub
 
 3.  Click **New SSH key**.
 
-<img src="Set_Up_SSH_for_GitHub_on_Debia_media/media/image1.png" style="width:6.5in;height:3.09722in" />
+<img src="Set_Up_SSH_for_GitHub_on_Debian_media/media/image1.png" style="width:6.5in;height:3.09722in" />
 
 
 4. Enter the following:
@@ -221,6 +221,34 @@ For example:
 git clone git@github.com:progressivepull/my-project.git
 ```
 
+Make a small change to a file, then try pushing the changes to GitHub to verify that everything is configured correctly.
+
+```bash
+git add *
+git commit -m "init commit"
+git push
+```
+
+if see the following message
+
+```
+Username for 'https://github.com':
+```
+The git remote set-url origin command changes the remote repository address named origin to use **SSH** instead of **HTTPS**. 
+
+This allows your local Debian repository to communicate with the GitHub repository progressivepull/angular-k8s.git using your SSH key for authentication.
+
+```
+git remote set-url origin git@github.com:YOUR_USERNAME/REPO_NAME.git
+```
+For example
+
+```
+git remote set-url origin git@github.com:progressivepull/angular-k8s.git
+```
+
+
+
 **Step 10. Configure SSH to use your GitHub key**
 
 Create an SSH configuration file:
@@ -273,7 +301,7 @@ git config --global --list
 
 **SSH authentication workflow**
 
-<img src="Set_Up_SSH_for_GitHub_on_Debia_media/media/image2.png" style="width:6.5in;height:3.50347in" />
+<img src="Set_Up_SSH_for_GitHub_on_Debian_media/media/image2.png" style="width:6.5in;height:3.50347in" />
 
 **Official documentation:** [GitHub – Connecting to GitHub with SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh?utm_source=chatgpt.com).
 
