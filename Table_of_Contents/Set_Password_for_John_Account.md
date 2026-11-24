@@ -72,4 +72,4 @@ sudo apt update
 
 Enter john's password when prompted.
 
-# [README](./README.md)
+# [README](./../README.md)
