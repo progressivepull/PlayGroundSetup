@@ -1,5 +1,3 @@
----
-
 # Set Password for John Account
 
 **Error Message**
@@ -74,6 +72,4 @@ sudo apt update
 
 Enter john's password when prompted.
 
-
-
----
+# [README](./README.md)
