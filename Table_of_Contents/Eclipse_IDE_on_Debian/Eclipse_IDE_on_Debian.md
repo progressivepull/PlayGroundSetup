@@ -86,7 +86,7 @@ chmod +x eclipse-inst
 # Step 5. Install Eclipse IDE
 
 
-<img src="Eclipse_IDE_on_Debian_media/media/image1.png" style="width:6.5in;height:3.0in" />
+<img src="Eclipse_IDE_on_Debian_media/media/image1.png" style="width:6.5in;height:4.0in" />
 
 
 
@@ -121,7 +121,7 @@ Run it using its full path, for example:
 
 # Step 7. Configure Java 21 inside Eclipse
 
-<img src="Eclipse_IDE_on_Debian_media/media/image2.png" style="width:6.5in;height:6.5in" />
+<img src="Eclipse_IDE_on_Debian_media/media/image2.png" style="width:6.5in;height:5.5in" />
 
 
 Inside Eclipse:
