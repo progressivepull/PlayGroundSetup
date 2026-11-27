@@ -28,10 +28,10 @@ The **DEBIAN_VERSION_FULL=13.8** entry pinpoints the eighth maintenance update t
 
 Taken together, they show a system on the current stable Debian branch updated with accumulated security patches and bug fixes.
 
-**PRETTY_NAME**="Debian GNU/Linux 13 (trixie)"      
-**NAME**="Debian GNU/Linux"    
-**VERSION ID**="13"    
-**VERSION**="13 (trixie)"    
+**PRETTY_NAME**=Debian GNU/Linux 13 (trixie)    
+**NAME**=Debian GNU/Linux   
+**VERSION ID**=13    
+**VERSION**=13 (trixie)    
 **VERSION CODENAME**=trixie    
 **DEBIAN VERSION FULL**=13.8  
 
