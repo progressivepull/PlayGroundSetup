@@ -13,6 +13,13 @@
 
 # Debian 
 
+<img 
+  src="https://github.com/progressivepull/Resources/blob/main/Logo/Debian.png" 
+  alt="Debian Logo" 
+  width="200" 
+  height="200" 
+>
+
 
 These lines come from system release metadata (typically **/etc/os-release**) and identify a machine running Debian GNU/Linux as its operating system. 
 
