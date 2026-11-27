@@ -41,6 +41,88 @@ sudo apt install -y maven
 ```
 
 
+### Find Maven installation directory
+Run:
+```bash
+which mvn
+```
+
+
+For a standard Debian installation using apt, Maven is typically located at:
+
+```
+/usr/share/maven
+```
+
+
+Verify:
+
+```
+ls -la /usr/share/maven
+```
+
+
+### Set MAVEN_HOME
+Open your Bash configuration:
+
+```
+nano ~/.bashrc
+```
+
+
+Add the following lines at the bottom:
+### Maven configuration
+
+```
+export MAVEN_HOME=/usr/share/maven
+export PATH=$MAVEN_HOME/bin:$PATH
+```
+
+
+Save and exit:
+- Ctrl + O – Save
+- Enter – Confirm
+- Ctrl + X – Exit
+
+### Reload environment variables
+
+Run:
+
+```
+source ~/.bashrc
+```
+
+
+### Verify Maven configuration
+Check MAVEN_HOME:
+
+```
+echo $MAVEN_HOME
+```
+
+Expected:
+
+```
+/usr/share/maven
+```
+
+Check Maven:
+
+```
+mvn -version
+```
+
+
+Expected output should look similar to:
+
+```
+Apache Maven 3.x.x
+Maven home: /usr/share/maven
+Java version: 21
+Java home: /usr/lib/jvm/java-21-openjdk-amd64
+```
+
+
 This installs Maven and its required dependencies.
 ## 4. Verify Maven Installation
 Check the installed Maven version.
