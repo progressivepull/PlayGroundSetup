@@ -20,7 +20,7 @@ These lines come from system release metadata (typically **/etc/os-release**) an
 
 The major release number is 13, paired with the codename **trixie**, which is Debian's current stable release series. 
 
-Fields like **PRETTY_NAME, NAME, VERSION_ID, VERSION, and VERSION_CODENAME ** give scripts and administrators standard labels for the distribution and release branch. 
+Fields like **PRETTY_NAME, NAME, VERSION_ID, VERSION, and VERSION_CODENAME** give scripts and administrators standard labels for the distribution and release branch. 
 
 
 The **DEBIAN_VERSION_FULL=13.8** entry pinpoints the eighth maintenance update to Debian 13, released on November 21, 2026. 
