@@ -205,7 +205,7 @@ Hello World!
 ## 10. Maven Directory Structure
 
 
-<img src="Apache_Maven_on_Debian_media/media/image1.png" style="width:6.5in;height:3.0in" />
+<img src="Apache_Maven_on_Debian_media/media/image1.png" style="width:8.5in;height:2.5in" />
 
 
 
