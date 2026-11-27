@@ -36,6 +36,14 @@ Taken together, they show a system on the current stable Debian branch updated w
 **DEBIAN VERSION FULL**=13.8  
 
 
+To view those specific Debian operating system details.
+
+run:
+
+```bash
+cat /etc/os-release
+```
+
 
 
 
