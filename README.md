@@ -12,6 +12,9 @@
 * [Set Up SSH for GitHub on Debian](./Table_of_Contents/Set_Up_SSH_for_GitHub_on_Debian/Set_Up_SSH_for_GitHub_on_Debian.md)
 * [How to Install JDK on Debian](./Table_of_Contents/Install_JDK_on_Debian/Install_JDK_on_Debian.md)
 * [How to Install Eclipse IDE on Debian](./Table_of_Contents/Eclipse_IDE_on_Debian/Eclipse_IDE_on_Debian.md)
+* [How to Install Apache Maven on Debian](./Table_of_Contents/Apache_Maven_on_Debian/Apache_Maven_on_Debian.md)
+
+
 
 
 
