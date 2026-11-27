@@ -166,6 +166,41 @@ Check the Maven installation directory:
 ls -la /usr/share/maven
 ```
 
+If Maven is installed correctly through Debian's apt package manager, you should see something similar to:
+
+```
+total 24
+drwxr-xr-x  5 root root 4096 ...
+drwxr-xr-x  ...
+drwxr-xr-x  2 root root 4096 ... bin
+drwxr-xr-x  2 root root 4096 ... boot
+drwxr-xr-x  2 root root 4096 ... conf
+drwxr-xr-x  2 root root 4096 ... lib
+```
+
+Important directories:
+
+| Directory	| Purpose |
+|-------------------|-------------------|
+| bin	| Maven executables and scripts |
+| boot	 | Maven startup components |
+| conf	| Maven configuration files |
+| lib |	Maven libraries |
+
+### Verify Maven executable
+Run:
+
+```bash
+ls -la /usr/share/maven/bin/
+```
+
+
+You should see:
+```
+mvn
+mvnDebug
+```
+
 
 ## 6. Configure Maven Environment Variables (Optional)
 Debian normally configures Maven automatically. You can inspect the Java and Maven environment variables.
