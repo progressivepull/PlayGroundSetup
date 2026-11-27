@@ -69,13 +69,20 @@ Open your Bash configuration:
 nano ~/.bashrc
 ```
 
-
 Add the following lines at the bottom:
 ### Maven configuration
 
+
+Add these lines at the bottom:
 ```
+# Java JDK
+export JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64
+
+# Maven
 export MAVEN_HOME=/usr/share/maven
-export PATH=$MAVEN_HOME/bin:$PATH
+
+# Add Java and Maven to PATH
+export PATH=$JAVA_HOME/bin:$MAVEN_HOME/bin:$PATH
 ```
 
 
